@@ -386,7 +386,8 @@ html {
   }
 
   .home-welcome .home-welcome-text {
-    font-size: 14px;
+    font-size: 20px;
+    line-height: 2;
   }
 }
 
