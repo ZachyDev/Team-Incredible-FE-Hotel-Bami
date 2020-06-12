@@ -12,8 +12,20 @@ if (btn) {
             div.style.display = 'none';
         }
     });
-}
-
+// }
+// const fadeEffect = () => {
+//   setInterval(() => {
+//       if (!preloader.style.opacity) {
+//           preloader.style.opacity = 1;
+//       }
+//       if (preloader.style.opacity > 0) {
+//           preloader.style.opacity -= 1/10;
+//       } else {
+//           clearInterval(fadeEffect);
+//       }
+//   }, 300);
+// };
+// fadeEffect();
 // pick last two from array
 const [ ,resturantButton, swimButton, gymButton] = buttons;
 

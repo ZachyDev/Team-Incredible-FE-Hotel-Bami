@@ -39,8 +39,8 @@ p {
     color: rgba(72, 76, 127, 0.74);
     font-weight: normal;
     font-style: normal;
-    line-height: 18px;
-    font-size: 18px;
+    line-height: 1.5;
+    font-size: 1.5em;
 }
 
 .fac-header {
@@ -48,8 +48,8 @@ p {
     font-size: 60px;
     line-height: 1;
     padding: 60px 0;
-  animation-name: slideInLeft;
-   animation-duration: 2s;
+    animation-name: slideInLeft;
+    animation-duration: 2s;
 }
 
 .fac-header span {
@@ -172,11 +172,13 @@ p {
     .fac-1 {
         padding-left: 10px;
     }
-    .fac-2{
-        padding-top:50px;
+
+    .fac-2 {
+        padding-top: 50px;
         padding-bottom: 0px;
         padding-left: 0px;
     }
+
     .fac-1 .img-1 {
         width: 150px;
         top: 100px;
@@ -202,7 +204,7 @@ p {
 
     .fac-3 .ellipse-5 {
         top: 2020px;
-        width:90px;
+        width: 90px;
     }
 
     .ellipse-restaurant {
@@ -270,10 +272,14 @@ p {
         height: auto;
         max-width: 500px;
     }
-    .restaurant-title, .gym-title{
-        padding-left:10px;
+
+    .restaurant-title,
+    .gym-title {
+        padding-left: 10px;
     }
-    .restaurant-section, .gym-section{
+
+    .restaurant-section,
+    .gym-section {
         padding: 0px !important;
     }
 }
@@ -328,12 +334,14 @@ p {
 
     .fac-2 {
         display: grid;
-        
+
     }
-    .fac-2-text{
-        margin:auto;
+
+    .fac-2-text {
+        margin: auto;
         padding: 10px;
     }
+
     .fac-2 .img-3 {
         width: 50px;
         top: 1620px;
@@ -396,13 +404,16 @@ p {
         width: 80px;
         top: 2340px;
     }
-    .gym-image img{
-        padding-top:0px !important;
+
+    .gym-image img {
+        padding-top: 0px !important;
     }
 }
 
 /*smallest screens */
 @media only screen and (max-width: 320px) {
+
+
     .ellipse-restaurant {
         display: none;
     }
@@ -437,7 +448,7 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin:auto;
+        margin: auto;
     }
 
     .fac-3 {
@@ -485,6 +496,7 @@ p {
 /* restaurant and gym section  */
 .restaurant-section {
     padding: 10px;
+
 }
 
 .restaurant-container {
@@ -502,13 +514,7 @@ p {
     font-size: 35px;
 }
 
-.body-text {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 27px;
-    color: rgba(72, 76, 127, 0.74);
-    text-align: c;
-}
+
 
 .ellipse-gym {
     display: none;
@@ -522,7 +528,7 @@ p {
 }
 
 .ellipse-restaurant {
-    display:none;
+    display: none;
 }
 
 .ellipse-gym {
@@ -620,6 +626,7 @@ p {
     .gym-title,
     .restaurant-title {
         font-size: 60px;
+        margin-bottom: 20px;
     }
 }
 
